@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Night Safe Home</string>
+    <!-- Name for email -->
+    <string name="name">Your name</string>
+
+    <!-- title of the questionnaire -->
+    <string name="titulo">Check list Night Safe Home</string>
+
+    <!-- Question 1 -->
+    <string name="checkOne">Close inside doors at night
+                            to stop a fire from spreading.</string>
+
+    <!-- Question 2 -->
+    <string name="checkTwo">Turn off and unplug electrical
+                            appliances unless they are designed
+                            to be left on – like your freezer. </string>
+    <!-- Question 3 -->
+    <string name="checkThree">Check your cooker is turned off. </string>
+
+    <!-- Question 4 -->
+    <string name="checkFour">Don’t leave the washing machine on. </string>
+
+    <!-- Question 5 -->
+    <string name="checkFive">Turn heaters off and put up fireguards.</string>
+
+    <!-- Question 6 -->
+    <string name="checkSix">Put candles and cigarettes out properly.</string>
+
+    <!-- Question 7 -->
+    <string name="checkSeven">Make sure exits are kept clear.</string>
+
+    <!-- Question 8 -->
+    <string name="checkEight">Keep door and window keys where everyone can
+                                                                find them.</string>
+
+
+    <!-- star bar header -->
+    <string name="safe_bar">Are you safe?</string>
+
+      <!-- text button for email -->
+    <string name="send_email">Send Check List for email</string>
+
+    <!--
+      part inherited from coffee orders not yet resolved
+    -->
+    <string name="order_summary_name">Nombre: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <string name="order_summary_email_subject">Sólo java para <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+</resources>
