@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.questionaryEndProject.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/titulo" />
+
+        <CheckBox
+            android:id="@+id/checkOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkOne"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkTwo"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkThree"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkFour"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkFive"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkSix"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkSeven"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/checkEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/checkEight"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/safe_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="8"
+                android:rating="2.5"
+                android:stepSize="1" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="sendEmail"
+            android:text="@string/send_email" />
+
+    </LinearLayout>
+
+</ScrollView>
